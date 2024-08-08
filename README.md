@@ -45,12 +45,13 @@ BODY
   curl -X POST http://localhost:8000/cmd ^-H "Content-Type: application/json" ^-H "auth:lts6cloudybridge" ^d "{\"cmd\":\"reg fankyfankz\"}"
 ```
 If You Want To Specificy Something To The User For Some Reason, You Can Add `{"no":"Write Something Here","cmd":"Your Command"}`
+If Only `{\"cmd\":\"reg fankyfankz\"}`, `"no"` Will Automatically Filled By Your Public IP Address
 
 **Ban Some User**
 ```bash
   curl -X POST http://localhost:8000/cmd ^-H "Content-Type: application/json" ^-H "auth:lts6cloudybridge" ^d "{\"cmd\":\"ban fankyfankz\"}"
 ```
-If You Want To Put Some Reason, You Can Add Coma ',' After Game Tag `"ban fankyfankz, You Have So Much Elytra\"`
+If You Want To Put Some Ban Reason, You Can Add Coma ',' After Game Tag `"ban fankyfankz, You Have So Much Elytra WTF\"`
 
 **Unban Some User**
 ```bash
