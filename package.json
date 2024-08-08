@@ -1,0 +1,27 @@
+{
+  "name": "cloudy-bridge",
+  "version": "1.0.0",
+  "description": "Minecraft API Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackshdw/BDSCloudy.git"
+  },
+  "keywords": [
+    "Minecraft",
+    "API",
+    "Client"
+  ],
+  "author": "fankyfankz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zackshdw/BDSCloudy/issues"
+  },
+  "homepage": "https://github.com/zackshdw/BDSCloudy#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
