@@ -1,7 +1,7 @@
 {
-  "name": "cloudy-bridge",
+  "name": "BDSCloudy",
   "version": "1.0.0",
-  "description": "Minecraft API Client",
+  "description": "Bedrock Dedicated Server API With ExpressJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
