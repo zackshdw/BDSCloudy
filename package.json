@@ -16,12 +16,12 @@
     "Client"
   ],
   "author": "fankyfankz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zackshdw/BDSCloudy/issues"
   },
   "homepage": "https://github.com/zackshdw/BDSCloudy#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.20.0"
   }
 }
